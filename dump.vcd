@@ -1,0 +1,206 @@
+$date
+	Mon May 29 02:41:22 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var reg 8 ! addr [7:0] $end
+$var reg 1 " clk $end
+$var reg 1 # read_en $end
+$scope module mem0 $end
+$var wire 8 $ addr [7:0] $end
+$var wire 1 % clk $end
+$var wire 1 & read_en $end
+$var reg 8 ' data_out [7:0] $end
+$var reg 1 ( flag $end
+$var reg 2 ) i [1:0] $end
+$var reg 4 * is_valid [3:0] $end
+$var integer 32 + j [31:0] $end
+$var reg 8 , output_addr [7:0] $end
+$var integer 32 - p [31:0] $end
+$var reg 8 . slct [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx .
+bx -
+bx ,
+bx +
+b0 *
+b0 )
+0(
+b0 '
+0&
+0%
+bx $
+0#
+0"
+bx !
+$end
+#10
+1#
+1&
+b10 !
+b10 $
+#20
+b1 *
+b11111101 .
+b100 +
+b1 -
+1"
+1%
+#30
+0#
+0&
+#40
+0"
+0%
+#50
+1#
+1&
+b1011 !
+b1011 $
+#60
+b11 *
+b11111111 .
+b10 +
+b0 -
+1"
+1%
+#70
+0#
+0&
+#80
+0"
+0%
+#90
+1#
+1&
+b1 !
+b1 $
+#100
+b1011 ,
+1(
+b101 *
+b110100 '
+b1 -
+b1 .
+b100 +
+1"
+1%
+#110
+0#
+0&
+#120
+0"
+0%
+#130
+1#
+1&
+b1101 !
+b1101 $
+#140
+b111 *
+b11111110 .
+0(
+b10 +
+b0 -
+1"
+1%
+#150
+0#
+0&
+#160
+0"
+0%
+#180
+b1101 ,
+1(
+b101 *
+b1101 '
+b1 -
+b1 .
+b10 +
+1"
+1%
+#200
+0"
+0%
+#220
+b1 ,
+b1 *
+b1110 '
+b1 .
+b10 +
+1(
+b1 -
+1"
+1%
+#240
+0"
+0%
+#260
+b10 ,
+b0 *
+b1000101 '
+b0 .
+b10 +
+1(
+b1 -
+1"
+1%
+#280
+0"
+0%
+#300
+b11111110 .
+b10 +
+0(
+b0 -
+1"
+1%
+#320
+0"
+0%
+#340
+b11111110 .
+b10 +
+1"
+1%
+#360
+0"
+0%
+#380
+b11111111 .
+b10 +
+1"
+1%
+#400
+0"
+0%
+#420
+b11 .
+b10 +
+1"
+1%
+#440
+0"
+0%
+#460
+b11111110 .
+b10 +
+1"
+1%
+#480
+0"
+0%
+#500
+b0 +
+1"
+1%
